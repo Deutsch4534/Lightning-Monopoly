@@ -23,8 +23,8 @@ class MyInfoTab extends Component {
                     </div>
                     <div className="d-flex flex-column">
                         <div className="d-flex flex-row info-tab-row">
-                            <span className="info-tab-label">Satoshis: </span>
-                            <span className="flex-fill">{this.props.store.getPlayer.money}</span>
+                            <span className="info-tab-label">Cash: </span>
+                            <span className="flex-fill">${this.props.store.getPlayer.money}</span>
                         </div>
                         <div className="d-flex flex-row info-tab-row">
                             <span className="info-tab-label">Net Worth: </span>

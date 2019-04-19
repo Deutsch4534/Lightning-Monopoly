@@ -20,7 +20,7 @@ class NewGame extends Component {
         joinGameUsername: "",
         joinGameUsernamePassword: "",
         formError: "",
-        satoshis: "",
+        // satoshis: "",
     };
 
     componentDidMount() {
@@ -139,9 +139,16 @@ class NewGame extends Component {
                 <ToastContainer/>
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-4">Lightning Monopoly</h1>
-                        <p class="lead">Welcome to the  ultimate game developed by <a href="https://sattoshis.games">Satoshi's Games</a> where you play the classic monopoly using lightning⚡</p>
-                    </div>
+                        <div class="row">
+                            <div class="col">
+                            <img  src="" />
+                            </div>
+                            <div class="col-md-auto">
+                                <h1 class="display-4">Lightning Monopoly</h1>
+                                <p class="lead">Welcome to the  ultimate game developed by <a href="https://sattoshis.games">Satoshi's Games</a> where you play the classic monopoly using lightning⚡</p>
+                            </div>
+                        </div>
+                     </div>
                 </div>
                 <ul className="nav nav-tabs">
                     <li className="nav-item cursor" onClick={() => this.setState({selectedTab: "create_game"})}>
@@ -181,10 +188,10 @@ class NewGame extends Component {
                                    className="form-control mb-2"
                                    placeholder="Password *can be simple"/>
                             <small className="form-text text-muted align-self-start">Your entrace fee</small>
-                            <input required value={this.state.satoshis}
+                            {/* <input required value={this.state.satoshis}
                                    onChange={({target}) => this.setState({satoshis: target.value})} type="number"
                                    className="form-control mb-2"
-                                   placeholder="Enter amount"/>
+                                   placeholder="Enter amount"/> */}
                             <button type="submit" className="btn btn-primary">Create</button>
                         </form>
                     </div>
