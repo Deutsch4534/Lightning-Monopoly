@@ -1,9 +1,5 @@
-# Techopoly
+# Lightning Monopoly
 
-### Website: https://techopoly.tk
-
-### Fully functioning online multiplayer Monopoly game.
-  - Uses: React, Websockets, Socket.io, Mobx
-  - Backend: NodeJS, Express, Mongodb, Socket.io
+### Website: https://monopoly.satoshis.games
 
 ![Monopoly Game](https://i.imgur.com/6VtRLxY.png)
