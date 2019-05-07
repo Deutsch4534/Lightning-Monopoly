@@ -2,4 +2,13 @@
 
 ### Website: https://monopoly.satoshis.games
 
-![Monopoly Game](https://i.imgur.com/6VtRLxY.png)
+
+## Getting Started
+1. Install dependencies `npm i`
+2. Run Server `npm start`
+3. Install front dependencies 
+```
+cd client/
+npm i
+```
+4. Run front (game) `npm start`
